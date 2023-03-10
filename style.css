@@ -1,0 +1,516 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.label{
+font-size: 30px;
+float: right;
+line-height: 80px;
+display: none;
+}
+#check{
+    display: none;
+}
+body{
+    background: #0a1931;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    background: rgb(133, 133, 192);
+    height: 80px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 9999;
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+    margin-right: 4px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul  li a{
+    color: white;
+    padding: 0px 5px;
+    text-transform: uppercase;
+}
+.logo{
+    line-height: 80px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 4px;
+font-size: 80px;
+}
+ .active , nav ul li a:hover{
+    background: white;
+    color: blue;
+    padding: 5px;
+    transition: 0.6s;
+    border-radius: 3%;
+
+ }
+ 
+img{
+    width: 250px;
+    height: 50vh;
+    border-radius: 10%;
+    transform: rotate(-9deg);
+
+}
+img:hover{
+    cursor: pointer;
+    transform: rotate(0deg);
+    transition: 1s;
+}
+ 
+.container1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+align-items: center;
+margin: auto;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    gap: 15px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    gap: 15px;
+
+
+}
+ol{
+    list-style: circle;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 300px;
+    
+
+}
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 30px;
+}
+.music{
+    background: transparent;
+    border: 1px solid wheat;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+.music:hover{
+    border: solid 2px #639CD9;
+    background:rgb(133, 133, 192);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.webdevelopment{
+    display: flex;
+    flex-direction: column;
+
+    background: transparent;
+    border-radius: 10px;
+    padding: 15px 30px;
+    border: solid 1px wheat;
+    padding: 5px 55px;
+}
+
+.webdevelopment:hover{
+    border: solid 2px #639CD9;
+    background:rgb(133, 133, 192);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    
+
+}
+span{
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(245, 245, 220);
+}
+body{ color: white;
+
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+button{
+
+    background:  #11144c;
+    border: solid 1px  #639CD9 ;
+    padding: 5px;   
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    align-items: center;
+    margin: auto;
+    border: solid 1px white;
+     border-radius: 3px;
+
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    padding: 3px;
+    
+}
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+text-align: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+
+.dodo{
+    border: solid 1px #0a1931;
+    padding-left: 50px;
+    width: 50%;
+    margin-left:250px ;
+    height: 50vh;
+    border-radius: 5px;
+
+
+}
+form label{
+    font-size: larger;
+    font-weight: bolder;
+}
+.inp{
+    width: 80%;
+    height: 4vh;
+    background: transparent;
+    border: solid 1px white;
+    border-radius: 3px;
+    color: white;
+}
+.special{
+    width: 80%;
+    height: 10vh;
+    background: transparent;
+    border: solid 1px white;
+    border-radius: 3px;
+    color: white;
+}
+.sub{
+    height: 4vh;
+    width: 15%;
+    border-radius: 3px;
+    background: transparent;
+    border: solid 1px white;
+    color: white;
+}
+.sub:hover{
+    cursor: pointer;
+}
+.dodo:hover{
+    background: #20385e;
+    transition: .8s;
+    border: #0a1931 solid 1px; 
+    cursor: pointer;
+
+}
+.registration{
+    border: solid 1px #0a1931 solid; 
+    width: 50%; 
+    height: 85vh;
+    border-radius: 3px;
+}
+.registration:hover{
+    background: #20385e;
+    transition: 1s;
+    cursor: pointer;
+}
+.serious{
+    background: transparent;
+    border: solid 1px white;
+    width: 80%;
+    height: 4vh;
+    border-radius: 3px;
+    margin-left: 50px;
+    color: white;
+}
+.registration label{
+    margin-left: 50px;
+}
+select{
+    margin-left: 50px;
+    background: transparent;
+    color: white;
+
+}
+select:hover{
+    cursor: pointer;
+}
+option{
+    color: black;
+}
+.su{
+    margin-left: 50px;
+    background: transparent;
+    color: white;
+    border: solid 1px white;
+    width: 55px;
+    height: 4vh;
+    border-radius: 3px;
+}
+.su:hover{
+    cursor: pointer;
+}
+.dodz{
+    border: solid 1px #0a1931;
+    padding-left: 50px;
+    width: 50%;
+    margin-left:260px ;
+    height: 30vh;
+    border-radius: 5px;
+
+
+}
+.dodz:hover{
+    background: #20385e;
+    transition: .8s;
+    border: #0a1931 solid 1px; 
+    cursor: pointer;
+
+}
+.dodzsub{
+    background: transparent;
+    color: white;
+    border: solid 1px white;
+    height: 4vh;
+    width: 70px;
+    border-radius: 4%;
+}
+.dodzsub:hover{
+    cursor: pointer;
+}
+.cont{
+    width: 100%;
+}
+.png{
+    width: 50px;
+    height: 5vh;
+    line-height: 80px;
+}
+
+
+
+ @media(max-width: 600px){
+    html{
+        font-size: smaller;
+    }
+.label{
+    display: block;
+    float: right;
+    margin-right: 0px;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+}
+    
+.dodo{
+    border: none;
+    margin-left: 50px;
+    width: 100%;
+    margin-left:0px ;
+    margin-right: 0px;
+    height: 50vh;
+    
+
+
+}
+.dodz{
+    border: none;
+    margin-left: 50px;
+    width: 100%;
+    margin: 0%;
+    height: 30vh;
+    width: 100%;
+    
+}
+.dodz:hover{
+    background: none;
+    border: solid 1px transparent;
+}
+.dodo:hover{
+    background: none;
+}
+.cont{
+    font-size: medium;
+}
+.registration{
+    border: none;
+    width: 100%;
+   margin: 0%;
+   padding: 0%;
+    height: 50vh;
+    
+}
+.registration:hover{
+    background: none;
+}
+
+    nav{
+        background: rgb(133, 133, 192);
+        height: 50px;
+        width: 100%;
+        position: fixed;
+        top: 0%;
+    }
+    ul{
+        position: fixed;
+        background: black;
+        width: 100%;
+        height: 100vh;
+        left: -100%;
+        transition: all 0.5s;
+        top: 50px;
+    }
+    nav ul li{
+        display: block;
+
+    }
+    nav ul li a{
+        text-align: center;
+        display: block;
+        color: whitesmoke;
+    
+
+    }
+    .active , nav ul li a:hover{
+        background: none;
+        color: wheat;
+        padding: 0%;
+        transition: 0.2s;
+    }
+    .all{
+        display: flex;
+        flex-direction: column;
+    }
+    .music{
+        margin-right: 10px;
+        padding: 35px 30px;
+    
+    }
+    .webdevelopment{
+        margin-right: 10px;
+    
+    }
+    .container1{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .container2{
+        width: 100%;
+        padding: 0px 20px;
+    }
+    #check:checked ~ul {
+        left: 0;
+    }
+    img{
+        transform: rotate(0deg);
+        border-radius: 90%;
+        height: 35vh;
+    }
+    ol{
+        list-style: circle;
+    }
+    .webdevelopment:hover{
+        border: solid 2px #639CD9;
+        background:rgb(133, 133, 192);
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .music:hover{
+        border: solid 2px #639CD9;
+        background:rgb(133, 133, 192);
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .btn{
+        display: inline-block;
+        margin-right: 800px;
+    }
+    form{
+    
+    }
+    .btn{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+    }
+    .logo{
+        display: block;
+        font-size: 20px;
+        line-height: 50px;
+        /* padding-left: 20px; */
+        position: fixed;
+        left: 0%;
+
+    }
+    
+
+ }
+ @media(max-width: 952px){
+    nav ul li a{
+        font-size: 16px;
+    }
+    img{
+        height: 35vh;
+        width: 30vh;
+    }
+    .logo{
+        display: block;
+        font-size: 30px;
+        line-height: 80px;
+    }
+ }
+ 
